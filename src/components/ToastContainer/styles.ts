@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 interface ToastProps {
   type?: 'success' | 'error' | 'info';
-  hasDescription: string;
+  hasDescription: boolean;
 }
 
 export const Container = styled.div`

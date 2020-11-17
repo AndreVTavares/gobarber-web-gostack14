@@ -53,8 +53,8 @@ const SignIn: React.FC = () => {
 
           formRef.current?.setErrors(errors);
         }
-        addToast();
       }
+      addToast();
     },
     [signIn, addToast],
   );
